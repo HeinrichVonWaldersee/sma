@@ -1,11 +1,12 @@
-# sma
-Python SMA project
+# SMA Project
 
 This code was written by the python group consisting of 
 
-Heinrich Waldersee, Antonios
+Heinrich Waldersee (16-620-502), Antonios
 
 Since we the interface of the CodeXCamp website did not allow us all to sign up together, we have have formed two groups to hand this project in. for more information please contact: heinrich.vonwaldersee@student.unisg.ch
+
+### About
 
 Goal of the program: Simulate a trading strategy for a given stock over a past timeframe to validate the strategies historical performance. The trading strategy followed is a Simple Moving Average strategy and the program returns the strategies performance based on a long an shorter Simple Moving Average. The program should return a chart for the stocks performance and the moving averages as well as detailed statistics and KPIs that give us insights into the performance of the strategy in a given timeframe for the given stock.
 
@@ -19,7 +20,7 @@ Outputs: Chart that visulaises Stock closing price in defined time period and th
          dictionary of performance statistics of the trading strategy, 
          dictionary of the trades the strategy performed.
 
-The program was adapted from Ryan Mardani, who wrote the fundamentals of many of the functions that we use. However, his code was very rigid and was thus adapted by us to applicable to any stock over any timeframe and with any SMAs. We added validated inputs and structured the program into functions a put them into a main function to have the program be runnable. Finally we also added thorough comments and documentation and changed a few calculations and outputs to better address how we expect the code to function. 
+The program was adapted from **Ryan Mardani**, who wrote the fundamentals of many of the functions that we use. However, his code was very rigid and was thus adapted by us to applicable to any stock over any timeframe and with any SMAs. We added validated inputs and structured the program into functions a put them into a main function to have the program be runnable. Finally we also added thorough comments and documentation and changed a few calculations and outputs to better address how we expect the code to function. 
 The Documentation of Mardani’s code can be found on their blog here: 
 https://towardsdatascience.com/data-science-in-finance-56a4d99279f7 
 and on their GitHub here: https://github.com/mardani72/Finance_Moving_Ave_Strategy
@@ -27,6 +28,8 @@ and on their GitHub here: https://github.com/mardani72/Finance_Moving_Ave_Strate
 In our group project, we tried to enhance an investment strategy, by tracking the historical performance over a given time period of a Simple Moving Average (SMA) Strategy. An SMA is calculated by averaging the closing stock prices of a chosen stock over a predetermined timeframe.
 The SMA Strategy consists in calculating two separate SMAs: one with a shorter timeframe than the other, longer, timeframe. Thereafter, we compare the short SMA with the long one. If the short one is larger than the longer one, and we do not yet hold a position in this stock, then we may proceed to buying this stock. If, however, the long SMA is larger  than the shorter SMA, and we hold a position in this stock, then the strategy suggests selling the stock.
 As described above, the SMA is a trend-following indicator, calculated as the arithmetic mean of a concrete set of values. In our case, it will be the arithmetic mean of the past closing prices of a stock of our choice. Our code asks the user to define the time horizon of both SMAs. For example, if we set the length of the short SMA to be 30 and the length of the long one to be 60, then the code will calculate the arithmetic mean of the last 30 and the last 60 closing prices of the stock. 
+
+### Functions
 
 **main()**: the main function receives calls the input function to receive that values it needs (Stock, start/end dates and short/long SMAs) and applies them to the other below defined functions to return a chart that tracks the performance as well as the two dictionaries “buy_sell” containing dates and prices at which positions would have been bought or sold and the dictionary “stats” that contains all the statistical analysis we can can get on the performance of this strategy. 
 
