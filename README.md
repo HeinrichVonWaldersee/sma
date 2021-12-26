@@ -2,7 +2,7 @@
 
 This code was written by the Python group consisting of 
 
-Master Students: Heinrich von Waldersee (16-620-502), Antonios, 
+Master Students: Heinrich von Waldersee (16-620-502), Antonios Chrysolouris (21-600-036)
 
 Bachelor Students: Christian Salis (21-605-225), Jovin Müntener (19-619-196)
 
