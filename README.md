@@ -2,7 +2,9 @@
 
 This code was written by the Python group consisting of 
 
-Heinrich von Waldersee (16-620-502), Antonios, Christian Salis (21-605-225)
+Master Students: Heinrich von Waldersee (16-620-502), Antonios, 
+
+Bachelor Students: Christian Salis (21-605-225), Jovin Müntener (19-619-196)
 
 In case there are any issues with the GitHub, please access the source code on the google collab notebook under the following link:
 
