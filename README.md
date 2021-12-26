@@ -1,14 +1,24 @@
 # SMA Project
 
-This code was written by the python group consisting of 
+This code was written by the Python group consisting of 
 
-Heinrich Waldersee (16-620-502), Antonios
+Heinrich von Waldersee (16-620-502), Antonios
 
 In case there are any issues with the GitHub, please access the source code on the google collab notebook under the following link:
 
 https://colab.research.google.com/drive/1jSPL-K3OKY_9LIk7738NnYdFe2i96ISo?usp=sharing
 
-Since we the interface of the CodeXCamp website did not allow us all to sign up together, we have have formed two groups to hand this project in. for more information please contact: heinrich.vonwaldersee@student.unisg.ch
+.
+
+.
+
+***IMPORTANT DISCLAIMER:***
+
+The interface of CodingXCamp website did not allow us all to sign up together, because some members of the group are MAster Students and some Members are Bachelor Students.
+
+However, this was not mentioned to be an issue when we formed the groups at the group forming event. Furthermore, we tried to contact the Professor both by email and by Slack (as early as the 15th of December) and we never recieved an answer. Therefore, we have have formed two groups to hand this project (one group wiht the Bachelor Students, One Group with the Master Students) **All of the above have mentioned students have collaborated on this project!!!**
+
+For more information please contact: heinrich.vonwaldersee@student.unisg.ch
 
 ### About
 
