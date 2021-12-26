@@ -2,7 +2,7 @@
 
 This code was written by the Python group consisting of 
 
-Heinrich von Waldersee (16-620-502), Antonios
+Heinrich von Waldersee (16-620-502), Antonios, Christian Salis (21-605-225)
 
 In case there are any issues with the GitHub, please access the source code on the google collab notebook under the following link:
 
@@ -24,11 +24,13 @@ For more information please contact: heinrich.vonwaldersee@student.unisg.ch
 
 Goal of the program: Simulate a trading strategy for a given stock over a past timeframe to validate the strategies historical performance. The trading strategy followed is a Simple Moving Average strategy and the program returns the strategies performance based on a long an shorter Simple Moving Average. The program should return a chart for the stocks performance and the moving averages as well as detailed statistics and KPIs that give us insights into the performance of the strategy in a given timeframe for the given stock.
 
-inputs: stock ticker (to search yahoo finance), 
+inputs: stock ticker (to search yahoo finance),
         start date (YYYY-MM-DD), 
         end date (YYYY-MM-DD), 
-        long SImple Moving Average (in days), 
-        short Simple Moving Average (in days).
+        short Simple Moving Average (in days),
+        long Simple Moving Average (in days).
+        
+Sample inputs: Stock: GOOG, Start Date: 2018-01-01, End Date: 2021-12-01, Short SMA: 20, Long SMA: 50        
         
 Outputs: Chart that visulaises Stock closing price in defined time period and the Long and short Simple Moving Averages,
          dictionary of performance statistics of the trading strategy, 
