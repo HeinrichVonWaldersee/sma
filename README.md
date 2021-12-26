@@ -1,0 +1,2 @@
+# sma
+Python SMA project
