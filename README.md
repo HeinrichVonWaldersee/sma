@@ -4,6 +4,10 @@ This code was written by the python group consisting of
 
 Heinrich Waldersee (16-620-502), Antonios
 
+In case there are any issues with the GitHub, please access the source code on the google collab notebook under the following link:
+
+https://colab.research.google.com/drive/1jSPL-K3OKY_9LIk7738NnYdFe2i96ISo?usp=sharing
+
 Since we the interface of the CodeXCamp website did not allow us all to sign up together, we have have formed two groups to hand this project in. for more information please contact: heinrich.vonwaldersee@student.unisg.ch
 
 ### About
